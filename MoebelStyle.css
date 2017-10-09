@@ -1,0 +1,20 @@
+/* grundlæggende css */
+*{
+  box-sizing: border-box;
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+    margin
+}
+
+div{
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+
+}
