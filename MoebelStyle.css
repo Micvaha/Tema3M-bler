@@ -6,9 +6,20 @@
 /*ALL OF THE BELOW CODE CONTROLS THE FRONT PAGE*/
 /*-----------------------------------------------------------------------------*/
 #wrapper{
-  max-width: 360px;
-  min-width: 250px;
+  background-color: white;
+}
+
+.bodyWrapper{
+  max-width: 920px;
+  min-width: 360px;
   margin: 0 auto;
+/*  background-color: blue;*/
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 .NOTbody{
@@ -20,7 +31,14 @@ h1{
   font-size:48px;
   /*text-transform: uppercase;*/
   text-align: center;
-    font-family: 'Tangerine', cursive;
+  text-decoration: none;
+font-family: 'Cinzel', serif;
+
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Didact Gothic', sans-serif;
 }
 /*These are the front image properties*/
 
@@ -48,6 +66,7 @@ margin-right: 1rem;
 .SecondFrontImage{
 margin-right: 1rem;
   margin: 10px 10px 10px 10px;
+  margin-bottom: 40px;
 
 
 }
@@ -104,6 +123,7 @@ nav a {
   text-align: center;
   text-decoration: none;
   line-height: 40px;
+  font-family: 'Didact Gothic', sans-serif;
 }
 
 nav a:hover{
@@ -119,7 +139,7 @@ nav a:active {
 
 
 nav a:hover {
-    box-shadow: 0 0 5px 5px rgba(0, 255, 10, 0.5);
+    box-shadow: 0 0 5px 5px rgba(0, 255, 0, 0.5);
 }
 
 .flex-container-Forside {
@@ -191,54 +211,71 @@ nav a:hover {
 /*-------------------------------------------------------------------------------------*/
 /*Here starts the page for Kundeservice*/
 
-h1 {
+/*h1 {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size-adjust: 1;
+}*/
+
+
+
+.textTilKundeService{
+  padding: 0 1rem;
+  font-family: 'Didact Gothic', sans-serif;
+  text-align: left;
 }
 
-p{
-  font-family: 'Open Sans Condensed', sans-serif;
-}
 .newsection {
   font-size-adjust: 1;
-  border-bottom: dotted #000000;
+  border-bottom: dotted black;
   padding-bottom: 0;
 }
 
 img{
-float: middle
+text-align: center;
+margin-top: 0px;
 }
+
+.img-circle {
+    border-radius: 45%;
+}
+
+span.highlight{
+  background-color: #57C0FF;
+  color: white;
+}
+
+.border{
+  border-style: solid;
+  border-color: green;
+  /*#007F13;*/
+  background-color: white;
+  /*box-shadow: 10px 10px green;*/
+}
+
+
 /*here ends the page for Kundeservice*/
 /*----------------------------------------------------------------*/
 /*here starts the page for Find us*/
 
-h1 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size-adjust: 1;
+
+.TextTilFindOs{
+  font-family: 'Didact Gothic', sans-serif;
+  text-align: left;
 }
 
-/* Runde Billeder */
-.img-circle {
-  border-radius: 50%;
-  width: 60%;
-  max-width: 100%;
-  height: auto;
-}
-
-p{
-  font-family: 'Open Sans Condensed', sans-serif;
+.AndenTextTilFindOs{
+  font-family: 'Didact Gothic', sans-serif;
+  text-align: left;
 }
 
 input{
   font-family: sans-serif;
-  font
   background-color: white;
-  font: red;
+
 cursor: auto;
 padding: 10px;
 border-width: 10px;
 border-color: green;
-border-width color: red;
 margin-bottom: 30px;
 }
 
@@ -248,6 +285,13 @@ margin-bottom: 30px;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
 }
+
+.img{
+text-align: left;
+font-family: 'Didact Gothic', sans-serif;
+}
+
+
 
 /*Here ends the page for find us*/
 /*---------------------------------------------------------------------------------------*/
@@ -272,16 +316,13 @@ div.desc {
     margin-bottom: 10px;
 }
 
-h1 {
-  text-align: center;
-}
-
 .flex-container {
     display: -webkit-flex;
     display: flex;
     -webkit-flex-wrap: wrap;
    flex-wrap: wrap;
 }
+
 button {
   width: 50%;
   margin-left: 25%;
@@ -291,8 +332,64 @@ button {
 
 p  {
   text-align: center;
+  font-family: 'Didact Gothic', sans-serif;
 }
 
-h2 {
-  text-align: center;
+/*Here ends the page for Udvalg af moebler*/
+/*-----------------------------------------------------------------------------*/
+/*Here starts the page for the Blog*/
+
+
+.grad{
+  background: green;
+}
+
+.over{
+  border-bottom: solid;
+}
+
+.headers{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.info{
+  float: right;
+  border-style: solid;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  height: 199.61%;
+  max-width: 30%;
+  min-width: 200px;
+  padding-left: 9px;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.ny{
+  width: 97%;
+  height: auto;
+  float: left;
+  padding-bottom: 15px;
+}
+
+.woman{
+  width: 100%;
+  height: auto;
+  float: right;
+  margin-top: : 0px;
+  border-radius: 30%;
+  padding-top: 10px;
+}
+
+.brød{
+  border-bottom: solid;
+  padding-bottom: 12px;
+}
+
+.inuit{
+  width: 97%;
+  height: auto;
+  padding-bottom: 15px;
 }
